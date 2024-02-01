@@ -13,7 +13,7 @@ const Blogs = () => {
                 
                 
             </a>
-            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">Explore all my blogs</h1>
+            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2 text-center">Explore all my blogs</h1>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>
             
         </div>
@@ -89,7 +89,7 @@ const Blogs = () => {
     <div className="text-center"> {/* Added text-center class here */}
             <button
               type="button"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-11"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-2.5 text-center me-2  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-11"
             >
               Default
             </button>

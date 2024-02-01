@@ -30,7 +30,7 @@ const Body = () => {
     <div>
 
 <Navbar/>
-      <div className="container my-24 mx-auto md:px-6 bg-cover bg-center" style={{ backgroundImage: `url(${black})`, backgroundSize: 'cover' }}>
+      <div className="container my-24 mx-auto md:px-6 bg-cover bg-center py-8" style={{ backgroundImage: `url(https://cdn.wallpapersafari.com/68/28/nSadkl.jpg)`, backgroundSize: 'cover' }}>
         <section className="mb-32 text-center bg-opacity-75">
           <div className="px-16 py-20 md:px-20 ">
             <h2 className="my-12 text-5xl font-bold tracking-tight text-black dark:text-white">
