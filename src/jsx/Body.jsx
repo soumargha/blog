@@ -1,23 +1,35 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import soumargha from '../assets/soumargha blog.jpeg';
 import black from '../assets/blackasf.jpg';
+import { Link, useNavigate } from 'react-router-dom';
+import Blogs from './Blogs';
+import Coffee from './Coffee';
+import Contact from './Contact';
+import Cards from './Cards';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Body = () => {
   const bodyRef = useRef();
   const navigate = useNavigate();
 
-  const handleKnowMoreClick = () => {
-     navigate('/MyDescrip');
-  };
-
   const handleGetStartedClick = () => {
     bodyRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleKnowMoreClick = () => {
+
+    navigate('/mydescrip');
+  };
+
   return (
+
+   
+
     <div>
+
+<Navbar/>
       <div className="container my-24 mx-auto md:px-6 bg-cover bg-center" style={{ backgroundImage: `url(${black})`, backgroundSize: 'cover' }}>
         <section className="mb-32 text-center bg-opacity-75">
           <div className="px-16 py-20 md:px-20 ">
@@ -44,28 +56,50 @@ const Body = () => {
         <div className="py-8 px-9 mx-auto max-w-screen-xl text-center lg:py-16">
           <div className="flex flex-col lg:flex-row lg:items-center">
             <div className="lg:w-1/2">
-              <img src={soumargha} className="rounded-lg" alt="Soumargha" />
+              <img src={soumargha} className="rounded-lg" alt="Soumargha Blog" />
             </div>
             <div className="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
               <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
                 Hi, I am SOUMARGHA BHATTACHARJEE
               </h1>
               <p className="mb-4 text-base font-normal text-gray-500 lg:text-lg sm:px-8 lg:px-24 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis voluptates debitis laudantium iste consectetur laborum aperiam provident explicabo, voluptatum id reiciendis sint assumenda possimus nobis reprehenderit eos eveniet accusamus aspernatur. Qui, ipsa.
+               <p>Full stack developer and a data analyst currently studying at National Institute of Technology, Agartala.
+               My Hobbies are playing cricket and making cool background music. Click on know more to connect with me.</p>
               </p>
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                <Link to="/MyDescrip" className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900">
-                  <button onClick={handleKnowMoreClick}>Know more</button>
-                  <svg className="w-3.5 h-3.5 ms-1 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                <button
+                  onClick={handleKnowMoreClick}
+                  className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
+                >
+                  Know more
+                  <svg
+                    className="w-3.5 h-3.5 ms-1 rtl:rotate-180"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
                   </svg>
-                </Link>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
       
+      <Cards />
+      <Blogs />
+      
+      <Contact />
+      <Coffee />
+      <Footer/>
     </div>
   );
 };

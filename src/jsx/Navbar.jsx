@@ -1,13 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
+
+
 const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 bg-white border-gray-200 dark:bg-black">
       <nav className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="https://t4.ftcdn.net/jpg/03/44/12/21/360_F_344122188_vFBTt6gM0qoMBf6iqhsnVccy7F3lyPvj.jpg" className="h-8" alt="Flowbite Logo" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Soumargha</span>
         </a>
         <button
           data-collapse-toggle="navbar-default"

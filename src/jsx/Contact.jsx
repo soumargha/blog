@@ -14,8 +14,8 @@ const Contact = () => {
             </div>
 
             {/* Form on the right */}
-            <div className="bg-slate-700 rounded-lg p-4  mt-2 mb-2 ml-8 mr-[-4rem]">
-              <h2 className="mb-12 text-3xl font-bold text-white">Contact us</h2>
+            <div className="bg-black rounded-lg p-4  mt-2 mb-2 ml-8 mr-[-4rem]">
+              <h2 className="mb-12 text-3xl font-bold text-white text-center">Contact Me</h2>
               <form>
         <div className="relative mb-6" data-te-input-wrapper-init>
           <input
