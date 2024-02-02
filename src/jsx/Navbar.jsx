@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
 
 
@@ -47,37 +48,54 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#about"
+            <ScrollLink
+                to="about" // Make sure it matches the id of your blogs section
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust the offset based on your layout
+                duration={500}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About Me
-              </a>
+              </ScrollLink>
             </li>
             <li>
-              <a
-                href="#blogs"
+            <ScrollLink
+                to="blogs" // Make sure it matches the id of your blogs section
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust the offset based on your layout
+                duration={500}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Blogs
-              </a>
+              </ScrollLink>
             </li>
             <li>
-              <a
-                href="#cupofcoffee"
+            <ScrollLink
+                to="contact" // Make sure it matches the id of your blogs section
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust the offset based on your layout
+                duration={500}
+                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                contact Me
+              </ScrollLink>
+            </li>
+            <li>
+            <ScrollLink
+                to="coffee" // Make sure it matches the id of your blogs section
+                spy={true}
+                smooth={true}
+                offset={-70} // Adjust the offset based on your layout
+                duration={500}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Cup of Coffee
-              </a>
+              </ScrollLink>
             </li>
-            <li>
-              <a
-                href="#contact"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact Me
-              </a>
-            </li>
+           
           </ul>
         </div>
       </nav>

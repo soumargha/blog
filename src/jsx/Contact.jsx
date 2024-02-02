@@ -5,7 +5,7 @@ import dummy from '../assets/dev-ed-wave.png';
 const Contact = () => {
   return (
     <div className="container my-24 mx-auto md:px-6 bg-black">
-      <section className="mb-32 text-center lg:text-left">
+      <section id='contact' className="mb-32 text-center lg:text-left">
         <div className="mx-auto max-w-[800px] md:px-3">
           <div className="grid items-center lg:grid-cols-2 lg:gap-x-12">
             {/* Image on the left */}

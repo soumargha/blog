@@ -1,14 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
-import soumargha from '../assets/soumargha blog.jpeg';
+import soumargha2 from '../assets/soumargha2.jpg';
 import black from '../assets/blackasf.jpg';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Blogs from './Blogs';
 import Coffee from './Coffee';
 import Contact from './Contact';
 import Cards from './Cards';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { Link } from 'react-scroll';
 
 const Body = () => {
   const bodyRef = useRef();
@@ -31,7 +32,7 @@ const Body = () => {
 
 <Navbar/>
       <div className="container my-24 mx-auto md:px-6 bg-cover bg-center py-8" style={{ backgroundImage: `url(https://cdn.wallpapersafari.com/68/28/nSadkl.jpg)`, backgroundSize: 'cover' }}>
-        <section className="mb-32 text-center bg-opacity-75">
+        <section  className="mb-32 text-center bg-opacity-75">
           <div className="px-16 py-20 md:px-20 ">
             <h2 className="my-12 text-5xl font-bold tracking-tight text-black dark:text-white">
               Hey there, <br />
@@ -52,11 +53,11 @@ const Body = () => {
       </div>
 
       {/* changes */}
-      <section ref={bodyRef} className="bg-white dark:bg-black mt-12">
-        <div className="py-8 px-9 mx-auto max-w-screen-xl text-center lg:py-16">
+      <section id='about' ref={bodyRef} className="bg-white dark:bg-black mt-10">
+        <div className="py-8 mt-[-8rem] px-9 mx-auto max-w-screen-xl text-center lg:py-16">
           <div className="flex flex-col lg:flex-row lg:items-center">
-            <div className="lg:w-1/2">
-              <img src={soumargha} className="rounded-lg" alt="Soumargha Blog" />
+            <div className="lg:w-1/2 px-5">
+              <img src={soumargha2} className=" rounded-lg" alt="Soumargha Blog"  />
             </div>
             <div className="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
               <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
@@ -64,7 +65,7 @@ const Body = () => {
               </h1>
               <p className="mb-4 text-base font-normal text-gray-500 lg:text-lg sm:px-8 lg:px-24 dark:text-gray-400">
                <p>Full stack developer and a data analyst currently studying at National Institute of Technology, Agartala.
-               My Hobbies are playing cricket and making cool background music. Click on know more to connect with me.</p>
+               I love playing cricket and making some cool background music 😊. Click on know more to connect with me.</p>
               </p>
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                 <button
