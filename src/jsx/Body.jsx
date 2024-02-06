@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
 import soumargha2 from '../assets/soumargha2.jpg';
-import black from '../assets/blackasf.jpg';
 import { useNavigate } from 'react-router-dom';
 import Blogs from './Blogs';
 import Coffee from './Coffee';
@@ -9,7 +8,6 @@ import Contact from './Contact';
 import Cards from './Cards';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Link } from 'react-scroll';
 
 const Body = () => {
   const bodyRef = useRef();
