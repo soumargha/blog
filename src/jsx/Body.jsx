@@ -20,6 +20,7 @@ const Body = () => {
   const handleKnowMoreClick = () => {
 
     navigate('/mydescrip');
+    window.scrollTo({ top: 0, behavior: 'auto' });
   };
 
   return (
@@ -68,7 +69,7 @@ const Body = () => {
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                 <button
                   onClick={handleKnowMoreClick}
-                  className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
+                  className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-purple-700 hover:bg-purple-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
                 >
                   Know more
                   <svg

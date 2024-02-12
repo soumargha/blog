@@ -6,7 +6,7 @@ const Descriptionstepper = () => {
     <div>
         
 <ul
-  className="relative m-0 w-full list-none overflow-hidden p-0 transition-[height] duration-200 ease-in-out ml-16"
+  className="relative m-0 w-full list-none overflow-hidden p-0 transition-[height] duration-200 ease-in-out ml-12"
   data-te-stepper-init
   data-te-stepper-type="vertical">
   

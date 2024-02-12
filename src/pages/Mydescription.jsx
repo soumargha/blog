@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import book from '../assets/book.jpeg';
+import book from '../assets/blackbaby.png';
 import Descriptionstepper from './Descriptionstepper';
 
 const Mydescription = () => {
   return (
     <div>
-      <div className="container my-12 mx-auto md:px-6">
+      <div className="container my-12 mx-auto md:px-6 ml-3">
         <section className="mb-32 text-center lg:text-center">
           <div className="px-6 py-12 md:px-12">
             <div className="grid items-center lg:grid-cols-2 lg:gap-x-12">
@@ -14,7 +14,7 @@ const Mydescription = () => {
               <div className="mb-12 lg:mb-0 order-2 lg:order-1">
                 <img
                   src={book}
-                  className="w-full max-w-full h-auto rounded-lg shadow-lg dark:shadow-black/20 px-8 mt-[-3rem]"
+                  className="w-full max-w-full h-auto rounded-lg shadow-lg dark:shadow-black/20 px-8 mt-[-3rem] bg-black"
                   alt=""
                 />
               </div>
@@ -69,7 +69,7 @@ const Mydescription = () => {
         </svg>
                   </a>
                   <a
-                    href="#!"
+                    href="https://www.facebook.com/soumargha.bhattacharya"
                     className="rounded-full bg-blue-700 p-5 text-white flex items-center justify-center"
                   >
                     <i className="fab fa-facebook-f"></i>
@@ -104,7 +104,7 @@ const Mydescription = () => {
         </section>
       </div>
       <div className="text-center">
-  <h1 className="mb-12 mt-[-9rem] text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Some small Achievements that count</h1>
+  <h1 className="mb-12 ml-2 mt-[-6rem] text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Some small Achievements that count</h1>
   <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"></p>
 </div>
        
