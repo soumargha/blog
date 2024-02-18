@@ -4,7 +4,7 @@ import React from 'react'
 const Cards = () => {
   return (
     <div>
-      <div className="flex justify-center space-x-4 mt-8">
+      <div className="flex justify-center space-x-4 mt-16 mb-16">
         {/* Card 1 */}
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">

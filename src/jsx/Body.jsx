@@ -94,9 +94,9 @@ const Body = () => {
         </div>
       </section>
       
-      <Cards />
-      <Blogs />
       
+      <Blogs />
+      <Cards />
       <Contact />
       <Coffee />
       <Footer/>

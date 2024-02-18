@@ -59,12 +59,12 @@ import dummy from '../assets/dev-ed-wave.png';
       
 
   return (
-     <div className="container my-24 mx-auto md:px-6 bg-black">
+     <div className="container mb-38 my-24 mx-auto md:px-6 bg-black">
       <section id='contact' className="mb-32 text-center lg:text-left">
         <div className="mx-auto max-w-[800px] md:px-3">
           <div className="grid items-center lg:grid-cols-2 lg:gap-x-12">
             {/* Image on the left */}
-            <div className="mb-12  lg:mb-0 ml-4 px-[-12 rem]">
+            <div className="mb-12  lg:mb-4 mr-4 px-[-12 rem]">
               <img src={dummy} className="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
             </div>
 
