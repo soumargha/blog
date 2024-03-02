@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import dummy from '../assets/dev-ed-wave.png';
+import towork2 from '../assets/towork2.png'
 
 
 
@@ -64,9 +65,20 @@ import dummy from '../assets/dev-ed-wave.png';
         <div className="mx-auto max-w-[800px] md:px-3">
           <div className="grid items-center lg:grid-cols-2 lg:gap-x-12">
             {/* Image on the left */}
-            <div className="mb-12  lg:mb-4 mr-4 px-[-12 rem]">
-              <img src={dummy} className="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
-            </div>
+            <div className="mb-12 lg:mb-4 mr-4 px-[-12 rem] relative overflow-hidden transition-all duration-500 ease-in-out transform group">
+      <img
+        src={towork2}
+        className="w-full rounded-lg shadow-lg dark:shadow-black/20 transition-all duration-500 ease-in-out transform scale-100 group-hover:scale-110"
+        alt=""
+      />
+      <img
+        src={dummy}
+        className="absolute inset-0 w-full h-full object-cover opacity-0 transition-all duration-500 ease-in-out transform group-hover:opacity-100 bg-black"
+        alt=""
+      />
+    </div>
+
+         
 
             {/* Form on the right */}
             <div className="bg-black rounded-lg p-4 mt-2 mb-2 lg:ml-8 lg:mr-[-4rem]">

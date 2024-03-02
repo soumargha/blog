@@ -38,8 +38,8 @@ const Blogs = () => {
               className="mb-4 w-full h-50 object-cover rounded-md"
             />
             
-                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Start with Flowbite Design System</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</h1>
+                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Unveiling Gemini AI:</h2>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Artificial Intelligence (AI) has been a transformative force, pushing the boundaries of what we once deemed possible. In this fast-evolving landscape, a new player has emerged, making waves and capturing the attention of tech enthusiasts and industry experts alike – Gemini AI.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog1"
@@ -68,8 +68,8 @@ const Blogs = () => {
               className="mb-4 w-full h-72 object-cover rounded-md"
             />
             
-                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Start with Flowbite Design System</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</h1>
+                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">GitHub Copilot:</h2>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">GitHub Copilot, a groundbreaking tool by GitHub and OpenAI, revolutionizes code creation. This AI-powered assistant, accelerates software development by providing real-time code suggestions, transforming the coding experience for developers worldwide.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog2"
@@ -98,8 +98,8 @@ const Blogs = () => {
               className="mb-4 w-full h-72 object-cover rounded-md bg-purple-400"
             />
             
-                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Start with Flowbite Design System</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</h1>
+                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Unveiling the Power of Data Analytics:</h2>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In today's data-driven world, the significance of data analytics cannot be overstated. As businesses and industries harness the power of data to make informed decisions, data analytics emerges as a critical tool. Let's embark on a journey to explore the intricacies, applications, and transformative potential of data analytics.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog3"
@@ -129,8 +129,8 @@ const Blogs = () => {
               className="mb-4 w-full h-50 object-cover rounded-md"
             />
             
-                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Start with Flowbite Design System</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</h1>
+                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Exploring the MediaTek Dimensity 9300 Chip</h2>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In the dynamic realm of mobile technology, the MediaTek Dimensity 9300 chip has emerged as a powerhouse, setting new standards for performance, connectivity, and efficiency. Let's embark on a journey to unravel the intricacies of this cutting-edge chip and understand how it is shaping the future of mobile devices.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog4"
