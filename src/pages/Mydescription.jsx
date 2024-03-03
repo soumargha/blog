@@ -104,7 +104,7 @@ const Mydescription = () => {
         </section>
       </div>
       <div className="text-center">
-  <h1 className="mb-12 ml-2 mt-[-6rem] text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Some small Achievements that count</h1>
+  <h1 className="mb-12 ml-2 mt-[-6rem] text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">Some small Achievements that count</h1>
   <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"></p>
 </div>
        

@@ -125,7 +125,7 @@ const BlogsDes = () => {
       </main>
 
 
-      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-black antialiased">
+      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-black antialiased">
         <div className="px-4 mx-auto max-w-screen-xl">
            {/* Image on top for mobile view */}
            <figure className="mb-8 lg:hidden text-center">
@@ -183,7 +183,7 @@ const BlogsDes = () => {
       </main>
 
 
-      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-black antialiased">
+      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-black antialiased">
         <div className="px-4 mx-auto max-w-screen-xl">
            {/* Image on top for mobile view */}
            <figure className="mb-8 lg:hidden text-center">
