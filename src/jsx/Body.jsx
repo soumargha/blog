@@ -33,7 +33,7 @@ const Body = () => {
       <div className="container my-24 mx-auto md:px-12 bg-cover bg-center py-8" style={{ backgroundImage: `url(https://w0.peakpx.com/wallpaper/148/727/HD-wallpaper-moon-space-black-stars.jpg)`, backgroundSize: 'cover' }}>
         <section  className="mb-32 text-center bg-opacity-75">
           <div className="px-16 py-20 md:px-20 ">
-            <h2 className="my-12 text-5xl font-bold tracking-tight text-black dark:text-white">
+            <h2 className="my-12 text-5xl font-bold tracking-tight  text-white">
               Hi, <br />
               <span className="text-primary dark:text-primary-400">Welcome to my personal blog</span>
             </h2>

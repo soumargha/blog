@@ -21,7 +21,7 @@ const Blogs = () => {
 {/* Blog1 */}
 <section id="blogs" className=" bg-purple-950 mt-12 px-4 py-0 mr-[-1rem]   ">
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-        <div className=" bg-purple-950 border  dark:border-purple-950 rounded-lg p-8 md:p-0 mb-8">
+        <div className=" bg-purple-950 border  border-purple-950 rounded-lg p-8 md:p-0 mb-8">
             
             <h1 className=" text-white text-3xl md:text-5xl font-extrabold mb-2 text-center">Explore all my blogs</h1>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>
@@ -31,14 +31,14 @@ const Blogs = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
 
-        <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
+        <div className=" bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
         <img
               src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp"
               alt="Blog1 Image"
               className="mb-4 w-full h-50 object-cover rounded-md"
             />
             
-                <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Unveiling Gemini AI:</h2>
+                <h2 className=" text-purple-100 text-3xl font-extrabold mb-2">Unveiling Gemini AI:</h2>
                 <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">Artificial Intelligence (AI) has been a transformative force, pushing the boundaries of what we once deemed possible. In this fast-evolving landscape, a new player has emerged, making waves and capturing the attention of tech enthusiasts and industry experts alike – Gemini AI.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
@@ -61,7 +61,7 @@ const Blogs = () => {
             </div>
 
         {/* blog2 */}
-        <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
+        <div className="bg-purple-700 border  border-gray-700 rounded-lg p-8 md:p-12">
         <img
               src="https://assets-global.website-files.com/649d808ba8385965c74d94e8/649d808ba8385965c74d9d8b_Github%20Copilot.svg"
               alt="Blog1 Image"
