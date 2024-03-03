@@ -21,9 +21,9 @@ const Blogs = () => {
 {/* Blog1 */}
 <section id="blogs" className=" bg-purple-950 mt-12 px-4 py-0 mr-[-1rem]   ">
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-        <div className=" dark:bg-purple-950 border border-gray-200 dark:border-purple-950 rounded-lg p-8 md:p-0 mb-8">
+        <div className=" bg-purple-950 border  dark:border-purple-950 rounded-lg p-8 md:p-0 mb-8">
             
-            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2 text-center">Explore all my blogs</h1>
+            <h1 className=" text-white text-3xl md:text-5xl font-extrabold mb-2 text-center">Explore all my blogs</h1>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>
             
         </div>
@@ -31,7 +31,7 @@ const Blogs = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
 
-        <div className="bg-gray-50 dark:bg-purple-700 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+        <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
         <img
               src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp"
               alt="Blog1 Image"
@@ -61,7 +61,7 @@ const Blogs = () => {
             </div>
 
         {/* blog2 */}
-        <div className="bg-gray-50 dark:bg-purple-700 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+        <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
         <img
               src="https://assets-global.website-files.com/649d808ba8385965c74d94e8/649d808ba8385965c74d9d8b_Github%20Copilot.svg"
               alt="Blog1 Image"
@@ -91,7 +91,7 @@ const Blogs = () => {
             </div>
             
             {/* blog3 */}
-            <div className="bg-gray-50 dark:bg-purple-700 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+            <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
             <img
               src="https://th.bing.com/th/id/OIG1.urBEPItsVWpL9mwymmyt?w=1024&h=1024&rs=1&pid=ImgDetMain"
               alt="Blog1 Image"
@@ -122,7 +122,7 @@ const Blogs = () => {
 
            {/* blog4 */}
 
-           <div className="bg-gray-50 dark:bg-purple-700 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
+           <div className="bg-gray-50 dark:bg-purple-700 border  dark:border-gray-700 rounded-lg p-8 md:p-12">
            <img
               src="https://www.91-cdn.com/hub/wp-content/uploads/2023/11/MediaTek-Dimensity-9300-SoC.png"
               alt="Blog1 Image"

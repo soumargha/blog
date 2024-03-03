@@ -52,14 +52,14 @@ const Body = () => {
       </div>
 
       {/* changes */}
-      <section id='about' ref={bodyRef} className="bg-white dark:bg-black mt-10">
+      <section id='about' ref={bodyRef} className=" bg-black mt-10">
         <div className="py-8 mt-[-8rem] px-9 mx-auto max-w-screen-xl text-center lg:py-16">
           <div className="flex flex-col lg:flex-row lg:items-center">
             <div className="lg:w-1/2 px-5">
               <img src={soumargha2} className=" rounded-lg" alt="Soumargha Blog"  />
             </div>
             <div className="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12">
-              <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+              <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-5xl text-white">
                 Hi, I am SOUMARGHA BHATTACHARJEE
               </h1>
               <p className="mb-4 text-base font-normal text-gray-500 lg:text-lg sm:px-8 lg:px-24 dark:text-gray-400">
