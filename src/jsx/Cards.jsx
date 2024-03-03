@@ -36,9 +36,9 @@ const Cards = () => {
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Loaves</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400"></p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {
@@ -61,13 +61,13 @@ const Cards = () => {
           {/* Card 2 */}
           <div className="max-w-sm   rounded-lg shadow mr-4 bg-gray-800 border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src="https://getwallpapers.com/wallpaper/full/b/f/7/1191115-gorgerous-beautiful-wallpapers-hd-2560x1600.jpg" alt="" />
+              <img className="rounded-t-lg " src="https://static.vecteezy.com/system/resources/previews/029/847/472/large_2x/hd-wallpaper-beautiful-scenery-ultra-hd-sunset-wallpapers-top-hd-landscape-green-background-4k-8k-16k-high-resolution-and-cinematicgraphy-ai-generated-photo.jpg" alt="" />
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Galaxy</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400"></p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {
@@ -90,13 +90,13 @@ const Cards = () => {
           {/* Card 3 */}
           <div className="max-w-sm   rounded-lg shadow mr-4 bg-gray-800 border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src="https://getwallpapers.com/wallpaper/full/b/f/7/1191115-gorgerous-beautiful-wallpapers-hd-2560x1600.jpg" alt="" />
+              <img className="rounded-t-lg" src="https://c4.wallpaperflare.com/wallpaper/70/280/987/sunset-nature-2560x1600-nature-sunsets-hd-art-wallpaper-preview.jpg" alt="" />
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Twilight</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400"></p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {
