@@ -59,15 +59,15 @@ const Cards = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="max-w-sm mr-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+          <div className="max-w-sm   rounded-lg shadow mr-4 bg-gray-800 border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src="https://e1.pxfuel.com/desktop-wallpaper/482/976/desktop-wallpaper-most-beautiful-places-in-the-world-nature-dreaming-beauty.jpg" alt="" />
+              <img className="rounded-t-lg" src="https://getwallpapers.com/wallpaper/full/b/f/7/1191115-gorgerous-beautiful-wallpapers-hd-2560x1600.jpg" alt="" />
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {
@@ -88,15 +88,15 @@ const Cards = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="max-w-sm mr-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+          <div className="max-w-sm   rounded-lg shadow mr-4 bg-gray-800 border-gray-700">
             <a href="#">
-              <img className="rounded-t-lg" src="https://wallpapers.com/images/featured/beautiful-hd-knhz127r599ui1ht.jpg" alt="" />
+              <img className="rounded-t-lg" src="https://getwallpapers.com/wallpaper/full/b/f/7/1191115-gorgerous-beautiful-wallpapers-hd-2560x1600.jpg" alt="" />
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {

@@ -6,7 +6,7 @@ const Descriptionstepper = () => {
     <div>
         
 <ul
-  className="relative m-0 w-full list-none overflow-hidden p-0 transition-[height] duration-200 ease-in-out ml-12"
+  className="relative m-0 w-full list-none overflow-hidden p-0 transition-[height] duration-200 ease-in-out ml-8"
   data-te-stepper-init
   data-te-stepper-type="vertical">
   
@@ -23,7 +23,7 @@ const Descriptionstepper = () => {
       </span>
       <span
         data-te-stepper-head-text-ref
-        className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+        className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
         Microsoft Learn Student Ambassador (April 2023 - present)
       </span>
     </div>
@@ -37,7 +37,7 @@ const Descriptionstepper = () => {
   
   <li
     data-te-stepper-step-ref
-    className="relative h-fit after:absolute after:left-[2.45rem] after:top-[3.6rem] after:mt-px after:h-[calc(100%-2.45rem)] after:w-px after:bg-[#e0e0e0] after:content-[''] dark:after:bg-neutral-600">
+    className="relative h-fit after:absolute after:left-[2.45rem] after:top-[3.6rem] after:mt-px after:h-[calc(100%-2.45rem)] after:w-px after:bg-[#e0e0e0] after:content-[''] after:bg-neutral-600">
     <div
       data-te-stepper-head-ref
       className="flex cursor-pointer items-center p-6 leading-[1.3rem] no-underline after:bg-[#e0e0e0] after:content-[''] hover:bg-[#f9f9f9] focus:outline-none dark:after:bg-neutral-600 dark:hover:bg-[#3b3b3b]">
@@ -48,7 +48,7 @@ const Descriptionstepper = () => {
       </span>
       <span
         data-te-stepper-head-text-ref
-        className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+        className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
         Web Developer Intern @ Teachnook (may - june 2023)
       </span>
     </div>
@@ -72,7 +72,7 @@ const Descriptionstepper = () => {
       </span>
       <span
         data-te-stepper-head-text-ref
-        className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+        className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
         Mathematics Tutor @ GauthMath (september 2023)
       </span>
     </div>
@@ -96,7 +96,7 @@ const Descriptionstepper = () => {
       </span>
       <span
         data-te-stepper-head-text-ref
-        className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+        className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
         Data Analyst Trainee @ MedTourEasy (december 2023 - january 2024)
       </span>
     </div>
@@ -119,7 +119,7 @@ const Descriptionstepper = () => {
       </span>
       <span
         data-te-stepper-head-text-ref
-        className="text-neutral-500 after:absolute after:flex after:text-[0.8rem] after:content-[data-content] dark:text-neutral-300">
+        className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
         Rajasthan Police Hackathon 1.0 Finalist (17 - 18 january 2024)
       </span>
     </div>
