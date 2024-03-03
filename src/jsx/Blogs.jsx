@@ -99,7 +99,7 @@ const Blogs = () => {
             />
             
                 <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Unveiling the Power of Data Analytics:</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In today's data-driven world, the significance of data analytics cannot be overstated. As businesses and industries harness the power of data to make informed decisions, data analytics emerges as a critical tool. Let's embark on a journey to explore the intricacies, applications, and transformative potential of data analytics.</h1>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In todays data-driven world, the significance of data analytics cannot be overstated. As businesses and industries harness the power of data to make informed decisions, data analytics emerges as a critical tool. Lets embark on a journey to explore the intricacies, applications, and transformative potential of data analytics.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog3"
@@ -130,7 +130,7 @@ const Blogs = () => {
             />
             
                 <h2 className="text-gray-900 dark:text-purple-100 text-3xl font-extrabold mb-2">Exploring the MediaTek Dimensity 9300 Chip</h2>
-                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In the dynamic realm of mobile technology, the MediaTek Dimensity 9300 chip has emerged as a powerhouse, setting new standards for performance, connectivity, and efficiency. Let's embark on a journey to unravel the intricacies of this cutting-edge chip and understand how it is shaping the future of mobile devices.</h1>
+                <h1 className="text-lg font-semibold text-gray-500 dark:text-gray-950 focus:font-bold mb-4">In the dynamic realm of mobile technology, the MediaTek Dimensity 9300 chip has emerged as a powerhouse, setting new standards for performance, connectivity, and efficiency. Lets embark on a journey to unravel the intricacies of this cutting-edge chip and understand how it is shaping the future of mobile devices.</h1>
                 <Link 
                 onClick={handleReadMoreClick}
                  to="/Blog4"
