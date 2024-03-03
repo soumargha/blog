@@ -78,7 +78,7 @@ const Footer = () => {
 
   
   <div
-    className="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-black dark:text-neutral-200">
+    className="w-full  p-4 text-center text-neutral-700 bg-black dark:text-neutral-200">
     © 2023 Copyright:
     <a
       className="text-neutral-800 dark:text-neutral-400"

@@ -18,7 +18,7 @@ const Coffee = () => {
   };
 
   return (
-    <div id='coffee' className="bg-gray-50 dark:bg-black border border-black rounded-lg p-8 md:p-0 mb-32 mt-10 ml-16 mr-16 text-center">
+    <div id='coffee' className="bg-black border border-black rounded-lg p-8 md:p-0 mb-32 mt-10 ml-16 mr-16 text-center">
       <a href="#" className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-black dark:text-blue-400 mb-2">
         <img
           src={consulting}
