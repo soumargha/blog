@@ -8,7 +8,7 @@ const Footer = () => {
 
 
 <footer
-  className="flex flex-col items-center bg-neutral-200 text-center text-white dark:bg-black">
+  className="flex flex-col items-center text-center text-white bg-black">
   <div className="container pt-9">
     <div className="mb-9 flex justify-center">
       {/* <a href="#!" className="mr-9 text-neutral-800 dark:text-neutral-200">
@@ -78,10 +78,10 @@ const Footer = () => {
 
   
   <div
-    className="w-full  p-4 text-center text-neutral-700 bg-black dark:text-neutral-200">
+    className="w-full  p-4 text-center  bg-black text-neutral-200">
     © 2023 Copyright:
     <a
-      className="text-neutral-800 dark:text-neutral-400"
+      className="text-neutral-400"
       href="https://tw-elements.com/"
       >TW elements</a
     >

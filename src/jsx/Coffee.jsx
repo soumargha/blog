@@ -19,15 +19,15 @@ const Coffee = () => {
 
   return (
     <div id='coffee' className="bg-black border border-black rounded-lg p-8 md:p-0 mb-32 mt-10 ml-16 mr-16 text-center">
-      <a href="#" className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-black dark:text-blue-400 mb-2">
+      <a href="#" className=" text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-black dark:text-blue-400 mb-2">
         <img
           src={consulting}
           className="w-32 rounded-lg mx-auto"
           alt="Avatar"
         />
       </a>
-      <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">If you like my work</h1>
-      <p className="mb-4 text-base font-normal text-gray-500 lg:text-lg sm:px-8 lg:px-24 dark:text-gray-400">
+      <h1 className="text-white text-3xl md:text-5xl font-extrabold mb-2">If you like my work</h1>
+      <p className="mb-4 text-base font-normal  lg:text-lg sm:px-8 lg:px-24 text-gray-400">
         please check out my
       </p>
       <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>

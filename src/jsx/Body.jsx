@@ -62,7 +62,7 @@ const Body = () => {
               <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-5xl text-white">
                 Hi, I am SOUMARGHA BHATTACHARJEE
               </h1>
-              <p className="mb-4 text-base font-normal text-gray-500 lg:text-lg sm:px-8 lg:px-24 dark:text-gray-400">
+              <p className="mb-4 text-base font-normal text-gray-300 lg:text-lg sm:px-8 lg:px-24 ">
                <p>Full stack developer and a data analyst currently studying at National Institute of Technology, Agartala.
                I love playing cricket and making some cool background music 😊. Click on know more to connect with me.</p>
               </p>

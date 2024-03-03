@@ -25,20 +25,20 @@ const Cards = () => {
   };
 
   return (
-    <><h1 className="mb-4 mt-20 text-3xl text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+    <><h1 className="mb-4 mt-20 text-3xl text-center font-extrabold tracking-tight leading-none  md:text-4xl lg:text-5xl text-white">
       Listen to some of my self made music
     </h1><div className="flex justify-center space-x-4 md:flex-row lg:flex-row xl:flex-row mt-16">
         <div className="flex flex-col items-center md:flex-row lg:flex-row xl:flex-row space-y-4 md:space-y-0 lg:space-y-0 xl:space-y-0">
           {/* Card 1 */}
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow mr-4 dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm   rounded-lg shadow mr-4 bg-gray-800 border-gray-700">
             <a href="#">
               <img className="rounded-t-lg" src="https://getwallpapers.com/wallpaper/full/b/f/7/1191115-gorgerous-beautiful-wallpapers-hd-2560x1600.jpg" alt="" />
             </a>
             <div className="p-5 flex flex-col items-center">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Explore some of music tracks</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white">Explore some of music tracks</h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <p className="mb-3 font-normal text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
               <div className="flex space-x-3 text-center">
                 <button
                   onClick={() => {
