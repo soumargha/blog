@@ -83,7 +83,7 @@ const Footer = () => {
     <a
       className="text-neutral-400"
       href="https://tw-elements.com/"
-      >TW elements</a
+      ></a
     >
   </div>
 </footer>

@@ -59,7 +59,7 @@ const Coffee = () => {
       <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>
 
       <button
-        className="text-white bg-purple-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-600 focus:outline-none dark:focus:ring-purple-600"
+        className="text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-teal-600 dark:hover:bg-teal-600 focus:outline-none dark:focus:ring-teal-600"
         type="button"
         onClick={() => {
           redirectToContactPage();

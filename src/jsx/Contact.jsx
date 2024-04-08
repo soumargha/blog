@@ -138,7 +138,7 @@ import towork2 from '../assets/towork2.png'
                 <button
                   type="button"
                   onClick={submitData}
-                  className="mb-6 inline-block w-full rounded bg-purple-600 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent hover:bg-purple-700 hover:rounded-full"
+                  className="mb-6 inline-block w-full rounded bg-teal-600 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-purple-300 focus:border-transparent hover:bg-teal-700 hover:rounded-full"
                 >
                   Send
                 </button>
