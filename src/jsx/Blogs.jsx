@@ -162,7 +162,7 @@ const Blogs = () => {
             </div>
 
 
-            {/* blog6 */}
+            {/* blog7 */}
 
             <div className="bg-teal-700 border  border-teal-700 rounded-lg p-8 md:p-12">
             <img
@@ -181,7 +181,7 @@ const Blogs = () => {
 </h1>
                 <Link 
                 onClick={handleReadMoreClick}
-                 to="/Blog6"
+                 to="/Blog7"
                 className="text-blue-600 dark:text-black hover:underline font-medium text-lg inline-flex items-center">
        <button
        

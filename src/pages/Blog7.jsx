@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import devops from '../assets/DevOps.png'
 
-const blog6 = () => {
+const Blog7 = () => {
     return (
         <div>
           <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-black antialiased">
@@ -67,4 +68,4 @@ In conclusion, DevOps represents a fundamental shift in the way organizations de
       );
 }
 
-export default blog6
+export default Blog7

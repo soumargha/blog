@@ -8,7 +8,7 @@ import Blog2 from './pages/Blog2'
 import Blog3 from './pages/Blog3'
 import Blog4 from './pages/Blog4'
 import Blog5 from './pages/Blog5'
-import Blog6 from './pages/blog6'
+import Blog7 from './pages/Blog7'
 import Allblogs from './pages/AllBlogs'
 import Mydescription from "./pages/Mydescription";
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/Blog3" element ={<Blog3/>} />
         <Route path="/Blog4" element ={<Blog4/>} />
         <Route path="/Blog5" element ={<Blog5/>} />
-        <Route path="/Blog6" element ={<Blog6/>} />
+        <Route path="/Blog7" element ={<Blog7/>} />
         <Route path="/allblogs" element ={<Allblogs/>} />
       </Routes>
     </Router>
