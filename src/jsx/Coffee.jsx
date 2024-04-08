@@ -1,9 +1,28 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import consulting from '../assets/consulting.png';
 
 const Coffee = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    // Function to handle scroll event
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) { // Adjust this value to change when the button appears
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener('scroll', toggleVisibility);
+
+    // Remove event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
 
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
@@ -14,7 +33,14 @@ const Coffee = () => {
   };
 
   const redirectToContactPage = () => {
-    window.location.href = 'https://portfoliosoumargha.netlify.app';
+    window.location.href = 'https://portfoliosbres.netlify.app/';
+  };
+
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 
   return (
@@ -52,6 +78,26 @@ const Coffee = () => {
         aria-labelledby="drawer-contact-label"
       >
       </div>
+
+      {/* Back-to-top button */}
+      {isVisible && (
+        <button
+          id="to-top-button"
+          onClick={goToTop}
+          title="Go To Top"
+          className="fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-teal-600 hover:bg-teal-700 text-white text-lg font-semibold transition-colors duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="w-6 h-6"
+          >
+            <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+          </svg>
+          <span className="sr-only">Go to top</span>
+        </button>
+      )}
     </div>
   );
 };

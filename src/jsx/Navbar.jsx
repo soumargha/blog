@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0  border-gray-200 bg-black">
+    <div className=" top-0 left-0 right-0  border-gray-200 bg-black">
       <nav className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
