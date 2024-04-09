@@ -1,8 +1,7 @@
-/* eslint-disable no-unused-vars */
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import soumargha2 from '../assets/soumargha2.jpg';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion'; // Import motion from Framer Motion
+import { motion } from 'framer-motion';
 import Blogs from './Blogs';
 import Coffee from './Coffee';
 import Contact from './Contact';
@@ -13,23 +12,28 @@ import Footer from './Footer';
 const Body = () => {
   const bodyRef = useRef();
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(false); 
 
   const handleGetStartedClick = () => {
     bodyRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   const handleKnowMoreClick = () => {
-    navigate('/mydescrip');
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    setLoading(true); 
+    setTimeout(() => {
+      navigate('/mydescrip');
+      setLoading(false); 
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }, 1000); 
   };
 
   return (
     <div>
       <Navbar />
       <motion.div
-        initial={{ x: -200, opacity: 0 }} // Initial position and opacity
-        animate={{ x: 0, opacity: 1 }} // Animation when component is mounted
-        transition={{ delay: 0.5, duration: 1.5 }} // Animation transition
+        initial={{ x: -200, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1.5 }}
         className="container my-24 mx-auto md:px-12 bg-cover bg-center py-8"
         style={{
           backgroundImage: `url(https://w0.peakpx.com/wallpaper/148/727/HD-wallpaper-moon-space-black-stars.jpg)`,
@@ -59,25 +63,25 @@ const Body = () => {
       <section id="about" ref={bodyRef} className=" bg-black mt-10">
         <div className="py-8 mt-[-8rem] px-9 mx-auto max-w-screen-xl text-center lg:py-16">
           <motion.div
-            initial={{ x: -200, opacity: 0 }} // Initial position and opacity
-            animate={{ x: 0, opacity: 1 }} // Animation when component is mounted
-            transition={{ delay: 0.5, duration: 1.5 }} // Animation transition
+            initial={{ x: -200, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1.5 }}
             className="flex flex-col lg:flex-row lg:items-center"
           >
             <div className="lg:w-1/2 px-5">
               <motion.img
-                initial={{ x: -200, opacity: 0 }} // Initial position and opacity
-                animate={{ x: 0, opacity: 1 }} // Animation when component is mounted
-                transition={{ delay: 0.5, duration: 1.5 }} // Animation transition
+                initial={{ x: -200, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ delay: 0.5, duration: 1.5 }}
                 src={soumargha2}
                 className=" rounded-lg"
                 alt="Soumargha Blog"
               />
             </div>
             <motion.div
-              initial={{ x: -200, opacity: 0 }} // Initial position and opacity
-              animate={{ x: 0, opacity: 1 }} // Animation when component is mounted
-              transition={{ delay: 0.5, duration: 1.5 }} // Animation transition
+              initial={{ x: -200, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.5, duration: 1.5 }}
               className="lg:w-1/2 mt-8 lg:mt-0 lg:pl-12"
             >
               <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-5xl text-white">
@@ -93,7 +97,7 @@ const Body = () => {
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                 <button
                   onClick={handleKnowMoreClick}
-                  className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-purple-700 hover:bg-purple-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
+                  className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-teal-700 hover:bg-teal-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
                 >
                   Know more
                   <svg
@@ -123,6 +127,34 @@ const Body = () => {
       <Contact />
       <Coffee />
       <Footer />
+
+      {loading && (
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75 z-50">
+          <div className="text-white text-2xl font-bold flex items-center">
+            Loading...
+            <svg
+              className="animate-spin h-8 w-8 ml-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              ></circle>
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A8.001 8.001 0 0112 4.472v3.638a4 4 0 00-4 4h3.638a7.963 7.963 0 01-1.637 4.072l-2.001-2zM12 20.528V16h3.637a8.03 8.03 0 01-1.637 4.072l-2.001-2zM19.727 11.758a7.963 7.963 0 011.637 4.072H20v-4.528l-.273.256z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
