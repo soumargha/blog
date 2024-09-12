@@ -2,6 +2,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import devops from '../assets/DevOps.png'
+import Addfile from '../../components/Addfile';
 
 const Blogs = () => {
  
@@ -93,7 +94,7 @@ const Blogs = () => {
             {/* blog3 */}
             <div className="bg-teal-700 border  border-teal-700 rounded-lg p-8 md:p-12">
             <img
-              src="https://th.bing.com/th/id/OIG1.urBEPItsVWpL9mwymmyt?w=1024&h=1024&rs=1&pid=ImgDetMain"
+              src="https://successive.cloud/wp-content/uploads/2022/04/Data-Analytics-Benefits-768x403.png"
               alt="Blog1 Image"
               className="mb-4 w-full h-72 object-cover rounded-md bg-teal-400"
             />
@@ -233,7 +234,16 @@ const Blogs = () => {
         </div>
         
     </div>
-    <div className="text-center">
+
+
+
+
+{/* add your comments */}
+
+<Addfile/>
+
+
+    <div className="text-center mt-16">
       <button
         onClick={handleDefaultClick}
         type="button"

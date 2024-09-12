@@ -99,7 +99,7 @@ const Body = () => {
                   onClick={handleKnowMoreClick}
                   className="inline-flex justify-center items-center py-2 px-4 text-base font-medium text-center text-white rounded-lg bg-teal-700 hover:bg-teal-800 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-900"
                 >
-                  Know more
+                  About Me
                   <svg
                     className="w-3.5 h-3.5 ms-1 rtl:rotate-180"
                     aria-hidden="true"
