@@ -3,7 +3,7 @@ import React from 'react'
 
 const Descriptionstepper = () => {
   return (
-    <div>
+    <div >
         
 <ul
   className="relative m-0 w-full list-none overflow-hidden p-0 transition-[height] duration-200 ease-in-out ml-8"
@@ -24,7 +24,7 @@ const Descriptionstepper = () => {
       <span
         data-te-stepper-head-text-ref
         className=" after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-neutral-300">
-        Microsoft Learn Student Ambassador (April 2023 - present)
+        Microsoft Learn Student Ambassador (April 2023 - April 2024)
       </span>
     </div>
     <div
